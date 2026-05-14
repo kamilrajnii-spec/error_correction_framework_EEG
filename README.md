@@ -7,7 +7,7 @@ This repository contains the technical implementation for a real-time EEG denois
 ## 2. Directory Structure
 To satisfy Phase 1 audit requirements, the repository is organized into the following auditable sections:
 
-- **📄 **Phase 1 EEG Signal Processing.ipynb**: Contains `main_pipeline.ipynb` and preprocessing modules.
+- 📄 **Phase 1 EEG Signal Processing.ipynb**: Contains `main_pipeline.ipynb` and preprocessing modules.
 - **📂 validation_plots/**: Contains the formal `README.md` and visual evidence of signal reconstruction.
 
 ## 3. Technical Foundation (Phase 1 Status)
