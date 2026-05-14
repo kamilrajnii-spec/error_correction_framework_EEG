@@ -9,6 +9,7 @@ To satisfy Phase 1 audit requirements, the repository is organized into the foll
 
 - 📄 **Phase 1 EEG Signal Processing.ipynb**: Contains `main_pipeline.ipynb` and preprocessing modules.
 - **📂 validation_plots/**: Contains the formal `README.md` and visual evidence of signal reconstruction.
+- **Data Source:** [Kaggle: EEG-Dataset (quands)](https://www.kaggle.com/datasets/quands/eeg-dataset?resource=download)
 
 ## 3. Technical Foundation (Phase 1 Status)
 The current version has been validated for the following milestones:
