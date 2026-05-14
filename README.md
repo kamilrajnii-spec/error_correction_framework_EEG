@@ -7,9 +7,8 @@ This repository contains the technical implementation for a real-time EEG denois
 ## 2. Directory Structure
 To satisfy Phase 1 audit requirements, the repository is organized into the following auditable sections:
 
-- **📂 scripts/**: Contains `main_pipeline.ipynb` and preprocessing modules.
+- **📄 **Phase 1 EEG Signal Processing.ipynb**: Contains `main_pipeline.ipynb` and preprocessing modules.
 - **📂 validation_plots/**: Contains the formal `README.md` and visual evidence of signal reconstruction.
-- **📂 models/**: [Phase 2] Placeholder for the PyTorch 1D-CNN implementation.
 
 ## 3. Technical Foundation (Phase 1 Status)
 The current version has been validated for the following milestones:
