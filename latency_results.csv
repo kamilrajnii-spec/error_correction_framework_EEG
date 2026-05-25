@@ -1,0 +1,4 @@
+stage,mean_ms,std_ms,p95_ms,rtf
+DWT-Only,0.319,0.05,0.414,0.0003
+DAE-Only,10.731,1.197,12.306,0.0107
+Hybrid (DWT+DAE),11.641,2.359,13.492,0.0116
