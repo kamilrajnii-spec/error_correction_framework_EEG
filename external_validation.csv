@@ -1,0 +1,7 @@
+Dataset,Channels,Artifact,SNR_Raw,SNR_DWT,SNR_Hybrid,Improvement_vs_Raw
+"CHB-MIT (Epilepsy, 23-ch)",23,Ocular,10.26,-2.26,-0.85,-11.11
+"CHB-MIT (Epilepsy, 23-ch)",23,Emg,13.21,-1.97,-0.57,-13.78
+"SEED IV (Emotion, 62-ch)",62,Ocular,10.32,-0.41,1.0,-9.31
+"SEED IV (Emotion, 62-ch)",62,Emg,14.37,-0.05,1.36,-13.01
+"EEGdenoiseNet (Benchmark, 19-ch)",19,Ocular,10.24,-1.46,-0.05,-10.29
+"EEGdenoiseNet (Benchmark, 19-ch)",19,Emg,11.87,-1.18,0.23,-11.64
