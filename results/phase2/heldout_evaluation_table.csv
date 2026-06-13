@@ -1,0 +1,4 @@
+split,method,snr_db,snr_gain_db,rmse,rrmse,n_pairs
+test,noisy_input,-1.740119,0.0,269.550829,1.221816,810
+test,wavelet_only,-0.08214,1.657979,222.71103,1.009502,810
+test,hybrid_wavelet_dae,3.171179,4.911298,153.135464,0.69413,810

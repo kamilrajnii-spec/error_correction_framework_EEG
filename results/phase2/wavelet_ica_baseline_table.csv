@@ -1,0 +1,12 @@
+dataset,method,artifact_type,target_snr_db,input_snr_db,output_snr_db,snr_gain_db,rmse,rrmse,epochs_used,status,notes,subjects_processed,subject_ids,channels,samples_processed,ica_components_estimated,artifact_components_identified,excluded_components,processing_time_seconds
+EEGdenoiseNet,DWT db4 level 4 soft threshold,blink,-5.0,-5.0,-5.132514,-0.132514,409.573823,1.805617,300,applied,Wavelet baseline uses real EEGdenoiseNet artifact pairs.,,,,,,,,
+EEGdenoiseNet,DWT db4 level 4 soft threshold,muscle,-5.0,-5.0,0.070833,5.070833,224.99085,0.991878,300,applied,Wavelet baseline uses real EEGdenoiseNet artifact pairs.,,,,,,,,
+EEGdenoiseNet,DWT db4 level 4 soft threshold,mixed,-5.0,-5.0,-0.426287,4.573713,238.243399,1.050302,300,applied,Wavelet baseline uses real EEGdenoiseNet artifact pairs.,,,,,,,,
+EEGdenoiseNet,DWT db4 level 4 soft threshold,blink,0.0,0.0,-0.441602,-0.441602,238.663825,1.052156,300,applied,Wavelet baseline uses real EEGdenoiseNet artifact pairs.,,,,,,,,
+EEGdenoiseNet,DWT db4 level 4 soft threshold,muscle,0.0,0.0,2.565604,2.565604,168.820945,0.744252,300,applied,Wavelet baseline uses real EEGdenoiseNet artifact pairs.,,,,,,,,
+EEGdenoiseNet,DWT db4 level 4 soft threshold,mixed,0.0,0.0,2.307304,2.307304,173.916705,0.766716,300,applied,Wavelet baseline uses real EEGdenoiseNet artifact pairs.,,,,,,,,
+EEGdenoiseNet,DWT db4 level 4 soft threshold,blink,5.0,5.0,3.703824,-1.296176,148.086455,0.652843,300,applied,Wavelet baseline uses real EEGdenoiseNet artifact pairs.,,,,,,,,
+EEGdenoiseNet,DWT db4 level 4 soft threshold,muscle,5.0,5.0,4.725134,-0.274866,131.658769,0.580421,300,applied,Wavelet baseline uses real EEGdenoiseNet artifact pairs.,,,,,,,,
+EEGdenoiseNet,DWT db4 level 4 soft threshold,mixed,5.0,5.0,4.624687,-0.375313,133.190172,0.587172,300,applied,Wavelet baseline uses real EEGdenoiseNet artifact pairs.,,,,,,,,
+EEGdenoiseNet,ICA FastICA,not_applicable,,,,,,,300,skipped,"ICA requires multi-channel data. EEGdenoiseNet epoch pairs are single-channel, so ICA is not used as the primary baseline.",,,,,,,,
+PhysioNet Motor Imagery,ICA FastICA,real_raw_eeg_no_clean_reference,,,,,,,,applied,ICA applied with FastICA and variance/kurtosis heuristics. Excluded components: []. Clean-reference metrics are not reported because PhysioNet MI does not provide clean/noisy pairs.,1.0,S001,64.0,1601.0,5.0,0.0,[],0.570195

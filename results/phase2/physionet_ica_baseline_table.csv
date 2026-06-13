@@ -1,0 +1,2 @@
+dataset,method,artifact_type,target_snr_db,input_snr_db,output_snr_db,snr_gain_db,rmse,rrmse,epochs_used,subjects_processed,subject_ids,channels,samples_processed,ica_components_estimated,artifact_components_identified,excluded_components,processing_time_seconds,status,notes
+PhysioNet Motor Imagery,ICA FastICA,real_raw_eeg_no_clean_reference,,,,,,,,1,S001,64,1601,5,0,[],0.570195,applied,ICA applied with FastICA and variance/kurtosis heuristics. Excluded components: []. Clean-reference metrics are not reported because PhysioNet MI does not provide clean/noisy pairs.

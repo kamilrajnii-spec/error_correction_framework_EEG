@@ -1,0 +1,3 @@
+dataset,status,clean_eeg_shape,eog_shape,emg_shape,file,channels,sampling_rate_hz,duration_seconds
+EEGdenoiseNet,loaded,"(4514, 512)","(3400, 512)","(5598, 512)",,,,
+PhysioNet Motor Imagery,loaded,,,,data/physionet_mi/S001/S001R01.edf,64,160.0,61.0
